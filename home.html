@@ -5,27 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>capa do site </title>
     <style> 
+        
+
+        body {
+           background-color: #EEEEEE;
+        }
+
+        
+           
+        
+        
         img {
           
             position: absolute;
             top: 100px;  /* Distância do topo */
-            left: 30%;
-            width: 300px;
+            left: 600px; /*move para direita */
+            width: 200px;
             height: auto;
+            
             border-radius: 15px; /* Arredondar as bordas */
-            object-fit: cover; /* Faz a imagem preencher o espaço sem disto*/
+            float: left;
+           
+           
+            
             
         }        ul{
             display: flex;
             flex-direction: row;
             list-style-type :none;
-          background-color: #4C585B;
+          background-color: #537188;
             justify-content:center;
             border-radius: 10px;
+         
         }
         ul li {
 
-            background-color:  #444747;
+            background-color:  #537188;
          margin-right: 10px;
          
 
@@ -34,26 +49,30 @@
 
             text-decoration: none;
             color: white ;
-            background-color:  #4C585B;
+            background-color:   #537188;
            padding: 20px;
            display: block;
            transition: all 0.5 ease;  
         }
         ul li a:hover {
             border-radius: 12px;
-            background-color: #7E99A3;
+            background-color: #CBB279;
+            
             font-weight: 200;
         }
          
         .caixa_menu {
             display: inline-block;
-          background-color:  red;
+          background-color:  #E1D4BB;
           border-radius: 12px;
-         padding: 50px;
-         color: black;
+         padding:50px;
+         }
 
+        p {
+            font-family: 'Playfair Display', cursive;
+            font-weight: 00;
+            color: black;
         }
-       
          
     </style>
 
@@ -67,11 +86,16 @@
         <li>  <a href="projetos.html">portfolio </a></li>
     </ul>
 
-     <div class="caixa_menu"> 
-        <p> Esse site é para  matéria de desenvolvimento web, <br> apresentação de portfolios e  um pouco sobre  a  criadora do site</p>
+    
+    <div class="caixa_menu"> 
+       <p> Esse site é para  matéria de desenvolvimento web, <br> apresentação de portfolios e  um pouco sobre  a  criadora do site</p>
+    </div>
+    
+    <div class="img"> 
+   <img src = "https://i.pinimg.com/736x/50/99/15/509915e981c5d650d65e45ae9f7e4893.jpg" alt="" width= "400px" class="imagem_inicio">
     </div>
 
-    <img src = "https://i.pinimg.com/736x/50/99/15/509915e981c5d650d65e45ae9f7e4893.jpg" alt="" width= "400px" class="imagem_inicio">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
 </body>
 </html>

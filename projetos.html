@@ -1,78 +1,85 @@
-/* coloca as palavras  em uma caixa  usa o div e uma class */
-
 <!DOCTYPE html>
 <html lang="br-pt">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <style> 
-
+    <title>capa do site </title>
+    <style>
         body {
             background-color: #EEEEEE;
-         }
- 
-        ul{
+        }
+
+        ul {
             display: flex;
             flex-direction: row;
-            list-style-type :none;
-          background-color: #537188;
-            justify-content:center;
+            list-style-type: none;
+            background-color: #537188;
+            justify-content: center;
             border-radius: 10px;
-           
+
         }
+
         ul li {
 
-            background-color:  #537188;
-         margin-right: 10px;
-    
+            background-color: #537188;
+            margin-right: 10px;
+
 
         }
-        ul li a  {
+
+        ul li a {
 
             text-decoration: none;
-            color: white ;
-            background-color:  #537188;
-           padding: 20px;
-        
-           display: block;
-           transition: all 0.5 ease;  
-       
+            color: white;
+            background-color: #537188;
+            padding: 20px;
+
+            display: block;
+            transition: all 0.5 ease;
+
         }
+
         ul li a:hover {
-            background-color:  #CBB279;
+            background-color: #CBB279;
             font-weight: 200px;
             border-radius: 12px;
         }
-        
-        p {
-            font-family: 'Playfair Display', cursive;
-            font-weight: 00;
-            color: black;
-            position: relative;
-             top: 34px;     /* Move o texto para baixo */
-             left: 50px; 
-        }
 
-        
+
+
+
 
         .img img {
-            width: 150px; /* Ajusta o tamanho da imagem */
+            width: 150px;
+            /* Ajusta o tamanho da imagem */
             border-radius: 10px;
             text-align: center;
             margin-top: 20px;
             margin-left: 15px;
         }
 
-       .texto_1 {
+        .img_2 img {
+            width: 150px;
+            border-radius: 10px;
+            text-align: center;
+            position: relative;
+            top: -153px;
+            /* Move para cima */
+            left: 190px;
+        }
+
+        .texto_1 {
             position: absolute;
-            top: 80px; /* Coloca o texto no topo da imagem */
-            left: 93px;
-            transform: translateX(-50%); /* Centraliza o texto horizontalmente */
+            top: 130px;
+            /* Coloca o texto no topo da imagem */
+            left: 100px;
+            transform: translateX(-50%);
+            /* Centraliza o texto horizontalmente */
             color: black;
             font-size: 18px;
             font-family: 'Playfair Display', cursive;
-           
+
             padding: 5px;
             border-radius: 5px;
             text-align: center;
@@ -80,46 +87,56 @@
 
         .texto_2 {
             position: absolute;
-            top: 28px; /* Coloca o texto no topo da imagem */
-            left: 190px;
-            transform: translateX(-50%); /* Centraliza o texto horizontalmente */
+            top: 130px;
+            /* Coloca o texto no topo da imagem */
+            left: 275px;
+            transform: translateX(-50%);
+            /* Centraliza o texto horizontalmente */
             color: black;
             font-size: 18px;
             font-family: 'Playfair Display', cursive;
-           
             padding: 5px;
             border-radius: 5px;
             text-align: center;
         }
-
-   
-</style>
+    </style>
 </head>
+
 <body>
-    
+
     <ul>
-        <li>  <a href="home.html"> home </a></li>
-        <li>  <a href="sobre_mim.html"> Sobre mim </a></li>
-        <li>  <a href="projetos.html">portfolio </a></li>
+        <li> <a href="home.html"> home </a></li>
+        <li> <a href="sobre_mim.html"> Sobre mim </a></li>
+        <li> <a href="projetos.html">portfolio </a></li>
     </ul>
+
+    <h2>Projetos github </h2>
 
 
 
     <a href="https://github.com/brenda14k/portfolio">
-       
-<div class="img">
-    <img src="https://play-lh.googleusercontent.com/PCpXdqvUWfCW1mXhH1Y_98yBpgsWxuTSTofy3NGMo9yBTATDyzVkqU580bfSln50bFU" alt="" widht= 100px></div>
 
-     <div class="texto_1">portfolio</div> 
+        <div class="img">
+            <img src="//play-lh.googleusercontent.com/PCpXdqvUWfCW1mXhH1Y_98yBpgsWxuTSTofy3NGMo9yBTATDyzVkqU580bfSln50bFU"
+                alt="" widht=100px>
+        </div>
+        <div class="texto_1">portfolio</div>
+
+        <div class="img_2">
+
+            <a href="https://github.com/brenda14k/Curriculo_rob">
+
+                <img src="//play-lh.googleusercontent.com/PCpXdqvUWfCW1mXhH1Y_98yBpgsWxuTSTofy3NGMo9yBTATDyzVkqU580bfSln50bFU"
+                    alt="" widht=100px>
+        </div>
+
+        <div class="texto_2">curriculo</div>
+
+
     </a>
-</div>
 
-<div class="texto_2">
-    <p>curiculo</p>
-</div>  
-    
 
-    
-    
+
 </body>
+
 </html>
